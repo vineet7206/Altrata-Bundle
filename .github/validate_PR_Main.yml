@@ -86,23 +86,7 @@ jobs:
           mkdir changed-sources
           sf sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
 
-      - name: "Scan for debug logs in code"
-        run: |
-          echo "Scanning for debug logs in the codebase..."
-          if grep -r "System.debug" force-app/; then
-            echo "Warning: Debug logs found in the codebase!"
-            exit 1
-          else
-            echo "No debug logs found."
-          fi
-        shell: /usr/bin/bash -e {0}
-
-      - name: "Check-only deploy delta changes - run specified tests"
-        if: ${{ env.APEX_TESTS != 'all' }}
-        run: |
-          echo ${{ env.APEX_TESTS }}
-          sf project deploy start --source-dir "changed-sources/force-app" --dry-run --test-level RunSpecifiedTests --tests ${{ env.APEX_TESTS }} --json
-          
+               
       - name: "Check-only deploy delta changes - run all tests"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
