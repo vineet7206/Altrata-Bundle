@@ -125,7 +125,7 @@
       ],
       &quot;upsells&quot;: [],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: false
+      &quot;sellable&quot;: true
     },
     &quot;fs-salesforce-rrg&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -157,7 +157,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-client-acquisition-b2b-advanced&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -175,7 +175,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-client-acquisition-b2b-daas&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -206,7 +206,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-client-acquisition-b2b-sf&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -242,7 +242,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-client-acquisition-b2c-advanced&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -260,7 +260,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-client-acquisition-b2c-daas&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -291,7 +291,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-client-acquisition-b2c-sf&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -309,7 +309,7 @@
         &quot;f-news-alerts&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-dealmakingpe-basic&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -327,7 +327,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-dealmakingpe-advanced&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -345,7 +345,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-dealmakingpe-daas&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -376,7 +376,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-dealmakingpe-sf&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -394,7 +394,7 @@
         &quot;f-news-alerts&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-fundraising-basic&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -412,7 +412,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-fundraising-advanced&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -430,7 +430,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-fundraising-daas&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -461,7 +461,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-fundraising-sf&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -479,7 +479,7 @@
         &quot;f-news-alerts&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-talent-basic&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -497,7 +497,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-talent-advanced&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -515,7 +515,7 @@
         &quot;f-radar&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     },
     &quot;fs-talent-daas&quot;: {
       &quot;cognitoGroups&quot;: [
@@ -566,7 +566,7 @@
         &quot;f-news-alerts&quot;
       ],
       &quot;productDescription&quot;: &quot;TBC&quot;,
-      &quot;sellable&quot;: true
+      &quot;sellable&quot;: false
     }
   },
   &quot;featureSetInclusions&quot;: {
